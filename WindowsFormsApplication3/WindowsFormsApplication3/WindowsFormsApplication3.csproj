@@ -73,6 +73,12 @@
     <Compile Include="PL\Start_view.Designer.cs">
       <DependentUpon>Start_view.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\viewscore.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\viewscore.Designer.cs">
+      <DependentUpon>viewscore.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="PL\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Start_view.resx">
       <DependentUpon>Start_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\viewscore.resx">
+      <DependentUpon>viewscore.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -216,6 +216,7 @@
             this.pb2.TabIndex = 0;
             this.pb2.TabStop = false;
             this.pb2.Tag = "1";
+           // this.pb2.BackColorChanged += new System.EventHandler(this.pb2_BackColorChanged);
             this.pb2.Click += new System.EventHandler(this.pb1_Click);
             // 
             // pb9
@@ -275,7 +276,7 @@
             this.Controls.Add(this.pb5);
             this.Controls.Add(this.pb1);
             this.Name = "Memory_cards_view";
-            this.Size = new System.Drawing.Size(465, 538);
+            this.Size = new System.Drawing.Size(463, 538);
             ((System.ComponentModel.ISupportInitialize)(this.pb16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb8)).EndInit();

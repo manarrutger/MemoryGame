@@ -10,18 +10,61 @@ C:\Users\manar\Documents\Visual Studio 2013\Projects\Nieuwe map\WindowsFormsAppl
 C:\Users\manar\Documents\Visual Studio 2013\Projects\Nieuwe map\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Memory_cards_view.resources
 C:\Users\manar\Documents\Visual Studio 2013\Projects\Nieuwe map\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Result_view.resources
 C:\Users\manar\Documents\Visual Studio 2013\Projects\Nieuwe map\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Start_view.resources
+C:\Users\kevin\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\kevin\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\kevin\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Form1.resources
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Memory_cards_view.resources
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Result_view.resources
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Start_view.resources
+C:\Users\kevin\Desktop\2015-2016\Software eng\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Form1.resources
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Memory_cards_view.resources
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Result_view.resources
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Start_view.resources
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.viewscore.resources
+C:\Users\manar\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Form1.resources
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Memory_cards_view.resources
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Result_view.resources
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Start_view.resources
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.viewscore.resources
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\manar\Desktop\kevin\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
 C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
 C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
 C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Form1.resources
+C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Memory_cards_view.resources
+C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Result_view.resources
+C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Start_view.resources
+C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.viewscore.resources
+C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
 C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
 C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
 C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
-C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
-C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
 C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
-C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Form1.resources
-C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Memory_cards_view.resources
-C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
-C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Result_view.resources
-C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.PL.Start_view.resources
-C:\Users\manar\Documents\mct\mct_2\software_ingenering\test\MemoryGame\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache

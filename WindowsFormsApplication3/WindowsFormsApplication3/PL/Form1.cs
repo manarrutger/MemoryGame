@@ -21,6 +21,7 @@ namespace WindowsFormsApplication3.PL
         #region controls
          Start_view start;
          public Memory_cards_view mmCard;
+         public viewscore new_score;
         public  void addMemory()
         {
             if (mmCard == null)
@@ -28,6 +29,23 @@ namespace WindowsFormsApplication3.PL
                 mmCard = new Memory_cards_view();
                 mmCard.Location = new Point(5, 5);
                 this.Controls.Add(mmCard);
+            }
+        }
+        public void addScore()
+        {
+            if (new_score == null)
+            {
+                new_score = new viewscore();
+                new_score.Location = new Point(480, 0);
+                this.Controls.Add(new_score);
+            }
+
+        }
+        public void deleteScore()
+        {
+            if (new_score != null)
+            {
+                this.Controls.Remove(new_score);
             }
         }
         public void deleteMemory()
@@ -52,6 +70,23 @@ namespace WindowsFormsApplication3.PL
             if (start != null)
             {
                 this.Controls.Remove(start);
+            }
+        }
+        public Result_view result;
+        public void addResult()
+        {
+            if (result == null)
+            {
+                result = new Result_view();
+                start.Location = new Point(200, 150);
+                this.Controls.Add(result);
+            }
+        }
+        public void deleteResult()
+        {
+            if (result != null)
+            {
+                this.Controls.Remove(result);
             }
         }
         #endregion
