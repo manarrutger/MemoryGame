@@ -24,10 +24,15 @@ namespace WindowsFormsApplication3.PL
             if (!cntNewGame.verif_Namne(txtBName.Text))
             {
                 
-                lblErr.Text = "UW naam schrijven als je wilt ";
+                lblErr.Text = "schrijf u naam";
              
             }
            
+        }
+
+        private void txtBName_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

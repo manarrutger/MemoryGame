@@ -11,27 +11,25 @@ namespace WindowsFormsApplication3.BL
 
     class New_Game
     {
-        public Player pl;
      
-
-        // hier kan je de naam bevestigen en de papieren in de willkeurige volgode komen
+      
 
         public bool verif_Namne(string naam)
         {
             if (naam.Trim() != "")
             {
-                pl = new Player(naam);
-
-                
+                Player.naam = naam;
                 if (System.Windows.Forms.Application.OpenForms["Form1"] != null)
                 {
-                    (System.Windows.Forms.Application.OpenForms["Form1"] as Form1).deleteStart();
-                    // كتابة الكود الي هيعمل اللعبة 
-                    // تغيير اماكن الصور 
-                    // ترتيب الصور 
-                    //الخ 
-                  
-                    (System.Windows.Forms.Application.OpenForms["Form1"] as Form1).addMemory();
+                    var frm = (System.Windows.Forms.Application.OpenForms["Form1"] as Form1);
+
+                    frm.deleteStart();
+                                       
+                    frm.addMemory();
+                    frm.addScore();
+                    frm.new_score.lblNaam.Text = Player.naam;
+                    frm.new_score.lblScore.Text = Player.score.ToString();
+                    frm.new_score.lblError.Text = Player.error.ToString();
                 }
                 return true;
             }
@@ -43,6 +41,6 @@ namespace WindowsFormsApplication3.BL
 
         }
 
-       
+
     }
 }

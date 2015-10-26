@@ -28,54 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblMessage = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnReplay = new System.Windows.Forms.Button();
+            this.lblTitle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label3
+            // lblMessage
             // 
-            this.label3.Location = new System.Drawing.Point(3, 39);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(505, 171);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "label3";
+            this.lblMessage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblMessage.Location = new System.Drawing.Point(21, 39);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(468, 77);
+            this.lblMessage.TabIndex = 5;
             // 
-            // label2
+            // btnExit
             // 
-            this.label2.Location = new System.Drawing.Point(3, 223);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(502, 23);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "label2";
+            this.btnExit.Location = new System.Drawing.Point(447, 131);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(60, 28);
+            this.btnExit.TabIndex = 6;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // label1
+            // btnReplay
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnReplay.Location = new System.Drawing.Point(381, 131);
+            this.btnReplay.Name = "btnReplay";
+            this.btnReplay.Size = new System.Drawing.Size(60, 28);
+            this.btnReplay.TabIndex = 6;
+            this.btnReplay.Text = "Replay";
+            this.btnReplay.UseVisualStyleBackColor = true;
+            this.btnReplay.Click += new System.EventHandler(this.btnReplay_Click);
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(449, 23);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
+            this.lblTitle.Location = new System.Drawing.Point(4, 8);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(449, 23);
+            this.lblTitle.TabIndex = 3;
+            this.lblTitle.Text = "Resultat";
+            this.lblTitle.Click += new System.EventHandler(this.label1_Click);
             // 
             // Result_view
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnReplay);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.lblMessage);
+            this.Controls.Add(this.lblTitle);
             this.Name = "Result_view";
-            this.Size = new System.Drawing.Size(510, 249);
+            this.Size = new System.Drawing.Size(510, 162);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnReplay;
+        public System.Windows.Forms.Label lblMessage;
+        public System.Windows.Forms.Label lblTitle;
     }
 }

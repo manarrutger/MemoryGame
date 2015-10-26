@@ -41,12 +41,7 @@
 
         #endregion
 
-        private Start_view start_view1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
-        private Start_view start_view2;
-
+       
 
     }
 }

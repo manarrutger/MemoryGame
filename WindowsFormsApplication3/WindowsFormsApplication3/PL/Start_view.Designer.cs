@@ -45,7 +45,7 @@
             // 
             // lblErr
             // 
-            this.lblErr.Location = new System.Drawing.Point(1, 54);
+            this.lblErr.Location = new System.Drawing.Point(2, 102);
             this.lblErr.Name = "lblErr";
             this.lblErr.Size = new System.Drawing.Size(305, 47);
             this.lblErr.TabIndex = 6;
@@ -57,10 +57,11 @@
             this.txtBName.Name = "txtBName";
             this.txtBName.Size = new System.Drawing.Size(217, 20);
             this.txtBName.TabIndex = 4;
+            this.txtBName.TextChanged += new System.EventHandler(this.txtBName_TextChanged);
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(0, 26);
+            this.btnStart.Location = new System.Drawing.Point(0, 53);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(307, 23);
             this.btnStart.TabIndex = 3;
@@ -77,7 +78,7 @@
             this.Controls.Add(this.txtBName);
             this.Controls.Add(this.btnStart);
             this.Name = "Start_view";
-            this.Size = new System.Drawing.Size(309, 106);
+            this.Size = new System.Drawing.Size(309, 149);
             this.ResumeLayout(false);
             this.PerformLayout();
 

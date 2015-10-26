@@ -8,15 +8,9 @@ namespace WindowsFormsApplication3.DAL
 {
     class Player
     {
-      public Player(string name )
-        {
-            this.name = name;
-            this.score = 0;
-            this.hightScore = 0;
-        }
-
-        public string name { get; set; }
-        public long score { get; set; }
-        public long hightScore { get; set; }
+        public static string naam = "Deffault";
+        public static short answer = 8;
+        public static long score = 0;
+        public static short error = 3;
     }
 }

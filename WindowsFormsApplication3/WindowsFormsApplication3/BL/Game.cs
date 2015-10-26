@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WindowsFormsApplication3.PL;
+using WindowsFormsApplication3.DAL;
 namespace WindowsFormsApplication3.BL
 {
     class Game
@@ -29,7 +30,7 @@ namespace WindowsFormsApplication3.BL
                                   };
      
         public List<string> deck_of_cards = new List<string>();
-        public void create_deck_of_cards(List<string> card_names)
+        private  void create_deck_of_cards(List<string> card_names)
         {
 
             List<string> possible_cards = new List<string>();
@@ -64,14 +65,25 @@ namespace WindowsFormsApplication3.BL
                 if (name_card[0] == name_card[1])
                 {
                    //score  ++
-                    Console.Write(name_card[0] + "       " + name_card[1]+"\n");
+                    Player.score+=10;
+                    Player.answer--;
+                    affich(false, null, null);
+                    if (Player.answer <= 1)
+                    {
+                         affich(true,"Gagne  ", "Hey " + Player.naam + "jeej je bent gewonnen");
+                    }
                     name_card.RemoveRange(0, 2);
                     return false;
-                    
                 }
                 else
                 {
-                    Console.Write(name_card[0] + "       " + name_card[1] + "\n");
+                    Player.error --;
+                    affich(false, null, null);
+                    if (Player.error == 0)
+                    {
+                       
+                        affich(true,"Game over ", "Hey " + Player.naam + "je bent verloren");
+                    }
                     name_card.RemoveRange(0, 2);
                     return true;
                   
@@ -82,5 +94,43 @@ namespace WindowsFormsApplication3.BL
             return false ;
         }
 
+
+        private void affich(bool cas ,string title ,string msg)
+        {
+            if (System.Windows.Forms.Application.OpenForms["Form1"] != null)
+            {
+                var frm = (System.Windows.Forms.Application.OpenForms["Form1"] as Form1);
+                if (cas)
+                {
+                    frm.deleteMemory();
+                    frm.deleteScore();
+                    frm.addResult();
+                    frm.result.lblTitle.Text = title;
+                    frm.result.lblMessage.Text = msg;
+                }
+                else
+                {
+                    frm.new_score.lblScore.Text = Player.score.ToString();
+                    frm.new_score.lblError.Text = Player.error.ToString();
+                }
+              
+            }  
+        }
+        public void replay()
+        {
+            Player.error = 10;
+            Player.answer = 8;
+            Player.score = 0;
+            if (System.Windows.Forms.Application.OpenForms["Form1"] != null)
+            {
+                var frm = (System.Windows.Forms.Application.OpenForms["Form1"] as Form1);
+                frm.deleteResult();
+                frm.addMemory();
+                frm.addScore();
+                frm.new_score.lbl1.Text = Player.naam;
+                frm.new_score.lbl2.Text = Player.score.ToString();
+                frm.new_score.lbl3.Text = Player.error.ToString();
+            }
+        }
     }
 }

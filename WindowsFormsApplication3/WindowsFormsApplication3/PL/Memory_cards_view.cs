@@ -22,26 +22,32 @@ namespace WindowsFormsApplication3.PL
 
         private void pb1_Click(object sender, EventArgs e)
         {
-           
+
             var pictureBox = sender as PictureBox;
             if (pictureBox != null)
             {
                 int index = Int32.Parse(pictureBox.Tag.ToString());
                 object o = Properties.Resources.ResourceManager.GetObject(gm.deck_of_cards[index]);
-
                 pictureBox.Image = (Image)o;
-                Task.Delay(1000).Wait();
+
                 gm.name_card.Add(gm.deck_of_cards[index]);
-                 pbs.Add(pictureBox);
+                pbs.Add(pictureBox);
                 
-                 if (gm.check_card())
-                 {
-                     flipCard();
-                 }
-               
+                if (gm.check_card())
+                {
+                    Task.Delay(1000).Wait();
+                    flipCard();
+                }
+                else
+                {
+                    if (pbs.Count == 2)
+                    {
+                        pbs.RemoveRange(0, 2);
+                    }
+                }
+
             }
         }
-
 
 
         #region flip
@@ -60,6 +66,16 @@ namespace WindowsFormsApplication3.PL
         }
 
         #endregion
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //private void pb2_BackColorChanged(object sender, EventArgs e)
+        //{
+        //    MessageBox.Show("hhhh");
+        //}
     }
 
 }
