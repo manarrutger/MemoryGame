@@ -1,0 +1,8 @@
+De bedoeling van het spel is om een zo hoog mogelijke score te behalen
+door middel van volgende stappen:
+
+- Klik op 'START' om het spel te starten.
+- Er zullen drie dobbelstenen verschijnen.
+- Klik op 'WERP' om de dobbelsteen te werpen.
+- De speler kan op een dobbelsteen klikken om een worp vast te leggen.
+- Na een maximum van drie worpen wordt de totaalscore weergegeven.
